@@ -1,0 +1,80 @@
+/* ==== HEADER SECTION ==== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-left: 200px;
+    color: #454344;
+}
+
+
+
+/* ==== NAVI SECTION ==== */
+
+nav > ul {
+    list-style-type: none;
+    margin-right: 200px;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin-right: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: #454344;
+}
+
+nav > ul > li > a:hover {
+    color: rgb(160, 160, 160)
+}
+
+
+
+/* ==== MAIN SECTION ==== */
+
+main {
+    background-image: url(../images/snow-mountain.jpeg);
+    height: 300;
+    text-align: center;
+    padding: 200px;
+    background-size: cover;
+    background-position: bottom;
+}
+
+#bold-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #454344;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+#thin-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    color: #454344;
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+main > button {
+    border: 1px solid #454344;
+    border-radius: 5px;
+    padding:10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    background-color: #454344;
+}
