@@ -7,7 +7,7 @@ header {
 .container {
     display: flex;
     width: 1500px;
-    margin: 0 auto;
+    margin: 20px auto;
     justify-content: space-between;
     /* border: 2px solid red; */
 }
