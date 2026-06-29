@@ -161,7 +161,7 @@ main > button {
     display: flex;
     width: 600px;
     height: 400px;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .content-container{
@@ -215,4 +215,41 @@ main > button {
     background-position: bottom right;
     height: 400px;
     width: 300px
+}
+
+
+/* ==== CTA SECTION ==== */
+
+.cta {
+    text-align: center;
+    padding: 80px 150px;
+}
+
+.cta > h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #454344;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.cta > hr {
+    border: 2px solid #34b9e9;
+    width: 250px;
+}
+
+.cta > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #454344;
+}
+
+.cta > button {
+    border: 3px solid #34b9e9;
+    padding:10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #34b9e9;
+    background-color: white;
+    margin-top: 20px;
 }
