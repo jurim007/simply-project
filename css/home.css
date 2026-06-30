@@ -253,3 +253,36 @@ main > button {
     background-color: white;
     margin-top: 20px;
 }
+
+
+/* ==== FOOTER SECTION ==== */
+
+footer {
+    background-color: #ebebeb;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 150px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.copyright > p,
+.footer-info-minisection > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #454344;
+}
+
+.footer-info-minisection > h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #454344;
+    text-transform: uppercase;
+}
